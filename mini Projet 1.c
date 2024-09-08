@@ -4,10 +4,8 @@
 
 struct Book {
  int id;
- char Title[50];
- char Author[50];
- int Quantity;
- int Price;
+ char Title[50], Author[50];
+ int Quantity, Price;
 };
 
 void Choisir( int *Choix){
@@ -65,7 +63,7 @@ void UpdateBook(struct Book* books, int n){
       }
  }
  if (!found)
-    printf("le livre No.%d n'est pas trouve.\n", id);
+    printf("le livre No.%d n'est pas trouver.\n", id);
 }
 
 void SearchBook(struct Book books[], int n){
@@ -124,7 +122,7 @@ for(i=0; i<n; i++){
     printf("entrer les information de livre No.%d \n", i+1);
     books[i]=EnterElement(books[i]);
 }
-printf("les livres sont ajout� avec succ�s\n");
+printf("les livres sont ajoute avec succes\n");
 
 do{
  Choisir(&Choix);
