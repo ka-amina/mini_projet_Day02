@@ -15,7 +15,7 @@ void Choisir( int *Choix){
 printf("1- Ajouter un livre au stock\n");
 printf("2- Afficher tous les livres disponibles.\n");
 printf("3- Rechercher un livre par son titre.\n");
-printf("4- Mettre à jour la quantité d'un livre.\n");
+printf("4- Mettre ï¿½ jour la quantitï¿½ d'un livre.\n");
 printf("5- Supprimer un livre du stock.\n");
 printf("6- Afficher le nombre total de livres en stock.\n");
 printf("Entrer votre choix : ");
@@ -124,7 +124,7 @@ for(i=0; i<n; i++){
     printf("entrer les information de livre No.%d \n", i+1);
     books[i]=EnterElement(books[i]);
 }
-printf("les livres sont ajouté avec succès\n");
+printf("les livres sont ajoutï¿½ avec succï¿½s\n");
 
 do{
  Choisir(&Choix);
@@ -154,3 +154,4 @@ do{
 }while(Choix >= 1 && Choix <= 7);
 return 0;
 }
+s
