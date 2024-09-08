@@ -154,4 +154,3 @@ do{
 }while(Choix >= 1 && Choix <= 7);
 return 0;
 }
-s
